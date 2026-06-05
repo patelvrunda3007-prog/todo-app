@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>💜 Viral Dream Planner</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+<div class="bg">
+    <span class="bubble b1">🌸</span>
+    <span class="bubble b2">🌷</span>
+    <span class="bubble b3">🦋</span>
+    <span class="bubble b4">🌺</span>
+    <span class="bubble b5">✨</span>
+    <span class="bubble b6">💜</span>
+    <span class="bubble b7">🌸</span>
+    <span class="bubble b8">🦋</span>
+</div>
+
+<div class="container">
+
+    <h1>💜 Viral Dream Planner</h1>
+
+    <button class="mode" onclick="toggleMode()">🌙 Toggle Mode</button>
+
+    <div class="stats">
+        <span id="count">Tasks: 0</span>
+        <div class="bar"><div id="progress"></div></div>
+    </div>
+
+    <input type="text" id="taskInput" placeholder="🌸 Add your dream task...">
+
+    <button onclick="addTask()">Add</button>
+
+    <ul id="taskList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
