@@ -77,4 +77,8 @@ function toggleMode(){
     document.body.classList.toggle("dark");
 }
 
+ if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("service-worker.js");
+}
+
 render();
